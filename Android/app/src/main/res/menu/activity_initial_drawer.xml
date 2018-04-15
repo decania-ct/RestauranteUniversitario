@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/week_menu"
+            android:icon="@drawable/icons8restaurantmenu"
+            android:title="@string/initial_main_label" />
+        <item
+            android:id="@+id/ticket_allocator"
+            android:icon="@drawable/icons8clock"
+            android:title="@string/ticket_allocator" />
+        <item
+            android:id="@+id/ticket_search"
+            android:icon="@drawable/icons8search"
+            android:title="@string/ticket_searcher" />
+        <item
+            android:id="@+id/available_queues"
+            android:icon="@drawable/icons8diningroom"
+            android:title="@string/available_schedules" />
+        <item
+            android:id="@+id/options"
+            android:icon="@drawable/icons8settings"
+            android:title="@string/options" />
+    </group>
+</menu>

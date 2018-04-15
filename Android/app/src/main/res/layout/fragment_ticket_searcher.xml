@@ -1,0 +1,93 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="br.ufrj.ct.restauranteuniversitario.TicketSearcherFragment">
+
+        <GridLayout
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="1">
+
+            <TextView
+                android:text="@string/identity_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:layout_gravity="start"
+                android:id="@+id/ticket_searcher_identity_text_view" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:layout_gravity="start"
+                android:id="@+id/ticket_searcher_identity_edit_text" />
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_gravity="start"
+                android:text="@string/save_CPF_option"
+                android:id="@+id/ticket_searcher_identity_switch" />
+
+            <TextView
+                android:text="@string/queues_spinner_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ticket_searcher_queues_text_view"
+                 />
+
+            <RelativeLayout>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ticket_searcher_queues_spinner" />
+
+                <LinearLayout
+                    android:id="@+id/ticket_searcher_queues_spinner_layout"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ProgressBar
+                        android:id="@+id/ticket_searcher_queues_progress_bar"
+                        style="?android:attr/progressBarStyleSmallInverse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/spinner_item_progress_bar_label"
+                        android:text="@string/progress_bar_loading_message"
+                        android:paddingLeft="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <Button
+                android:text="@string/send_button_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ticket_searcher_button"
+                android:padding="0dp"
+                android:background="@android:color/transparent"
+                android:textColor="@drawable/custom_button"
+                android:textSize="20sp"
+                android:layout_gravity="center"/>
+        </GridLayout>
+
+    </FrameLayout>
+
+</ScrollView>

@@ -1,0 +1,121 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="br.ufrj.ct.restauranteuniversitario.TicketAllocatorFragment">
+
+        <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/ticket_allocator_grid_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="1">
+
+            <TextView
+                android:text="@string/identity_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="start"
+                android:layout_row="0"
+                android:id="@+id/ticket_allocator_identity_text_view" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:layout_gravity="start"
+                android:layout_row="1"
+                android:id="@+id/ticket_allocator_identity_edit_text" />
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_gravity="start"
+                android:layout_row="2"
+                android:text="@string/save_CPF_option"
+                android:id="@+id/ticket_allocator_identity_switch" />
+
+            <TextView
+                android:text="@string/queues_spinner_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ticket_allocator_queues_text_view"
+                android:layout_row="4"
+                 />
+
+            <RelativeLayout
+                android:layout_row="5">
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ticket_allocator_queues_spinner"
+                     />
+
+                <LinearLayout
+                    android:id="@+id/ticket_allocator_spinner_layout"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ProgressBar
+                        android:id="@+id/ticket_allocator_progress_bar"
+                        style="?android:attr/progressBarStyleSmallInverse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/spinner_item_progress_bar_label"
+                        android:text="@string/progress_bar_loading_message"
+                        android:paddingLeft="8dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                android:text="@string/date_picker_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_row="6"
+                android:id="@+id/ticket_allocator_time_text_view" />
+
+            <TimePicker
+                android:timePickerMode="spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:layout_row="7"
+                android:id="@+id/ticket_allocator_time_time_picker"/>
+
+
+            <Button
+                android:text="@string/send_button_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ticket_allocator_button"
+                android:padding="0dp"
+                android:layout_row="8"
+                android:background="@android:color/transparent"
+                android:textColor="@drawable/custom_button"
+                android:textSize="20sp"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_gravity="center"/>
+        </GridLayout>
+
+    </FrameLayout>
+
+</ScrollView>

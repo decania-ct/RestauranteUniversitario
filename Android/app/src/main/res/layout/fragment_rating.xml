@@ -1,0 +1,90 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufrj.ct.restauranteuniversitario.RatingFragment">
+
+    <LinearLayout
+        android:id="@+id/rating_linearLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Avalie o app" />
+
+        <RatingBar
+            android:id="@+id/rating_appRatingBar"
+            android:stepSize="1"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Avalie o Restaurante Universitário" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:text="Cardápio" />
+
+        <RatingBar
+            android:id="@+id/rating_menuRatingBar"
+            android:stepSize="1"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:text="Atendimento" />
+
+        <RatingBar
+            android:id="@+id/rating_attendanceRatingBar"
+            android:stepSize="1"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:text="Observações" />
+
+        <EditText
+            android:id="@+id/rating_observationsEditText"
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:minLines="6"
+            android:gravity="top|left"
+            android:maxLines="10"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:scrollbars="vertical"
+        />
+
+        <Button
+            android:text="@string/send_button_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rating_button"
+            android:padding="0dp"
+            android:background="@android:color/transparent"
+            android:textColor="@drawable/custom_button"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+</ScrollView>

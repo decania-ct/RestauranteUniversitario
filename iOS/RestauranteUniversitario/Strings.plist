@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Cancel in Other Device Message</key>
+	<string>O cancelamento só pode ser feito no mesmo dispositivo de alocação do ticekt</string>
+	<key>Options Title</key>
+	<string>Opções</string>
+	<key>Navigation Bar Back Button Title</key>
+	<string>Voltar</string>
+	<key>Ticket Attendance</key>
+	<string>Atendimento do ticket</string>
+	<key>Ticket Date Time</key>
+	<string>Data e hora do agendamento</string>
+	<key>Ticket e-ticket</key>
+	<string>e-ticket</string>
+	<key>Ticket Restaurant Name</key>
+	<string>Restaurante Universitário - UFRJ</string>
+	<key>Rotate Message</key>
+	<string>RODE A TELA</string>
+	<key>Alert Delete Title</key>
+	<string>EXCLUIR</string>
+	<key>Alert Delete Message</key>
+	<string>Deseja excluir o ticket?</string>
+	<key>Alert No Option</key>
+	<string>NÃO</string>
+	<key>Alert Yes Option</key>
+	<string>SIM</string>
+	<key>Options Rating</key>
+	<string>Avaliações</string>
+	<key>Options Hours</key>
+	<string>Horários de Funcionamento</string>
+	<key>Options Notifications</key>
+	<string>Notificações</string>
+	<key>End</key>
+	<string>Fim</string>
+	<key>Start</key>
+	<string>Início</string>
+	<key>Queues Date Time Label</key>
+	<string>Horário / Vagas</string>
+	<key>Queues Description Label</key>
+	<string>Descrição</string>
+	<key>Queues Data Label</key>
+	<string>Dados</string>
+	<key>No Queues Message</key>
+	<string>Nenhum atendimento aberto no momento</string>
+	<key>Loading Label</key>
+	<string>Carregando...</string>
+	<key>Invalid Id Message</key>
+	<string>Identificação inválida</string>
+	<key>No Attendance Selected Message</key>
+	<string>Nenhum atendimento selecionado</string>
+	<key>No Ticket Found Message</key>
+	<string>Nenhum ticket encontrado para esse atendimento</string>
+	<key>Ticket Success Cancel Message</key>
+	<string>Ticket cancelado com sucesso</string>
+	<key>Firebase App</key>
+	<string>br.ufrj.ct.RestauranteUniversitario</string>
+	<key>No ID Message</key>
+	<string></string>
+	<key>Firebase Token</key>
+	<string></string>
+	<key>JWT Token</key>
+	<string></string>
+	<key>API URL</key>
+	<string>http://ru-api-dev.t.ct.ufrj.br/</string>
+</dict>
+</plist>

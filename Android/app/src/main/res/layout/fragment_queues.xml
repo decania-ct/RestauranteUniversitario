@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufrj.ct.restauranteuniversitario.QueuesFragment">
+
+    <LinearLayout
+        android:id="@+id/queues_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/queues_relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ProgressBar
+                android:id="@+id/queues_progress_bar"
+                style="?android:attr/progressBarStyleInverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="2.5dp"
+                android:paddingLeft="8dp"
+                android:layout_toRightOf="@+id/queues_progress_bar"
+                android:textSize="30sp"
+                android:text="@string/progress_bar_loading_message" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

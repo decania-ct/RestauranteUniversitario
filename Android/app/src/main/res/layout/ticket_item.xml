@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@drawable/ticket_shape"
+    >
+
+    <ImageView
+        android:id="@+id/ticket_item_QRCode_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/ticket_item_queues_text_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ticket_item_QRCode_image_view"
+        android:layout_alignTop="@+id/ticket_item_QRCode_image_view"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/ticket_item_capital_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ticket_item_queues_text_view"
+        android:layout_toRightOf="@+id/ticket_item_QRCode_image_view"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:paddingLeft="5dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="br.ufrj.ct.restauranteuniversitario.NotificationsFragment">
+
+        <GridLayout
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="1">
+
+            <TextView
+                android:text="@string/identity_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:layout_gravity="start"
+                android:id="@+id/ticket_searcher_identity_text_view" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:padding="5dp"
+                android:layout_gravity="start"
+                android:id="@+id/notifications_editText" />
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_gravity="start"
+                android:text="Ativar notificações"
+                android:id="@+id/notifications_switch" />
+
+            <Button
+                android:text="@string/send_button_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/notifications_button"
+                android:padding="0dp"
+                android:background="@android:color/transparent"
+                android:textColor="@drawable/custom_button"
+                android:textSize="20sp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:text="Identificações associadas ao dispositivo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_gravity="start" />
+        </GridLayout>
+
+    </ScrollView>
+
+    <ListView
+        android:id="@+id/notifications_listView"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:listSelector="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>

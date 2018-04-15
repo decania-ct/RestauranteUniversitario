@@ -1,0 +1,86 @@
+<resources>
+    <!-- TOAST STRINGS -->
+    <string name="toast_no_tickets_found_message">Nenhum ticket encontrado para este atendimento</string>
+    <string name="toast_update_ticket_status_canceled_message">Ticket cancelado com sucesso</string>
+    <string name="toast_update_ticket_status_billed_message">Ticket pago com sucesso</string>
+    <string name="toast_update_ticket_status_pending_message">Ticket status agora é pendente</string>
+    <string name="toast_update_ticket_status_expired_message">Ticket status agora é expirado</string>
+    <string name="toast_update_ticket_status_closed_message">Ticket status agora é fechado</string>
+    <string name="toast_cancel_in_other_device_message">O cancelamento só pode ser feito no mesmo dispositivo de alocação do ticekt</string>
+
+    <!-- FIREBASE RELATED STRINGS -->
+    <string name="firebase_package_name">br.ufrj.ct.RestauranteUniversitario</string>
+    <string name="fcm_preference">br.ufrj.ct.restauranteuniversitario.fcm_preference</string>
+    <string name="fcm_token">br.ufrj.ct.restauranteuniversitario.fcm_token</string>
+    <string name="jwt_preference">br.ufrj.ct.restauranteuniversitario.jwt_preference</string>
+    <string name="jwt_token">br.ufrj.ct.restauranteuniversitario.jwt_token</string>
+
+    <!-- CANCEL TOKEN STRINGS -->
+    <string name="cancel_token_preference">br.ufrj.ct.restauranteuniversitario.cancel_token_preference</string>
+
+    <!-- FRAGMENT STRINGS -->
+
+    <!-- QUEUES FRAGMENT STRINGS -->
+    <string name="queues_atendance_label">Dados</string>
+    <string name="queues_vacances_label">Horário / Vagas</string>
+    <string name="queues_description_label">Descrição</string>
+    <string name="queues_no_attendance_message">Nenhum atendimento aberto no momento. Volte mais tarde.</string>
+    <string name="schedules_error">Nenhum atendimento aberto no momento. Volte mais tarde.</string>
+
+    <!-- TICKET FRAGMENT STRINGS -->
+    <string name="ticket_dialog_delete_ticket_title">Excluir o ticket</string>
+    <string name="ticket_dialog_delete_ticket_message">Tem certeza que deseja excluir este ticket?</string>
+
+    <!-- LAYOUT STRINGS -->
+    <!-- TICKET STRINGS -->
+    <string name="ticket_main_label">Restaurante Universitário - UFRJ</string>
+    <string name="ticket_main_sublabel">e-ticket</string>
+    <string name="ticket_date_allocated_label">Data e hora do agendamento</string>
+    <string name="ticket_attendance_label">Atendimento do ticket</string>
+
+    <!-- API RELATED STRINGS -->
+    <string name="base_api_url">http://ru-api-dev.t.ct.ufrj.br/</string>
+
+
+    <!-- USED IN MULTIPLE PLACES -->
+    <string name="progress_bar_loading_message">Carregando...</string>
+    <string name="dialog_yes_option">SIM</string>
+    <string name="dialog_no_option">NÃO</string>
+
+    <!-- LAYOUT -->
+    <string name="send_button_label">ENVIAR</string>
+    <string name="queues_spinner_label">Atendimento</string>
+    <string name="date_picker_label">Horário Pretendido</string>
+    <string name="identity_label">Identificação (CPF)</string>
+
+
+    <string name="app_name">RU UFRJ</string>
+
+    <string name="id_preference">br.ufrj.ct.restauranteuniversitario.id</string>
+
+    <string name="app_main_label">Cardápio Semanal</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="initial_main_label">Cardápio Semanal</string>
+
+    <string name="generator_success_tv">Agendamos à(s):</string>
+
+    <string name="save_CPF_option">Memorizar identificação</string>
+
+    <string name="home">Cardápio Semanal</string>
+    <string name="available_schedules">Agendamentos Disponíveis</string>
+    <string name="ticket_searcher">Buscar Agendamentos</string>
+    <string name="ticket_allocator">Agendar Horário</string>
+    <string name="options">Opções</string>
+
+    <string name="no_attendance_message">Nenhum atendimento selecionado</string>
+    <string name="no_id_message">Identificação Inválida</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="saved_Id"></string>
+
+</resources>

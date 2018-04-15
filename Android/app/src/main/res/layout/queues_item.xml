@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/view_layout"
+    android:background="@drawable/ticket_shape">
+
+    <TextView
+        android:id="@+id/queues_item_data_text_view_label"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/queues_atendance_label" />
+
+    <TextView
+        android:id="@+id/queues_item_data_text_view"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/queues_item_data_text_view_label"
+        />
+
+    <TextView
+        android:id="@+id/queues_item_statistics_text_view_label"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/queues_item_data_text_view"
+        android:text="@string/queues_vacances_label" />
+
+    <TextView
+        android:id="@+id/queues_item_statistics_text_view"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/queues_item_statistics_text_view_label"
+        android:layout_toRightOf="@+id/queues_item_data_text_view"
+        />
+
+    <TextView
+        android:id="@+id/view_item_description_text_view_label"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/queues_item_data_text_view"
+        android:text="@string/queues_description_label" />
+
+    <TextView
+        android:id="@+id/view_item_description_text_view"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@+id/queues_item_statistics_text_view"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view_item_description_text_view_label"
+        />
+
+</RelativeLayout>

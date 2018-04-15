@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="restaurantEntries">
+        <item>Central</item>
+        <item>Centro de Tecnologia (CT)</item>
+        <item>Faculdade de Letras</item>
+    </string-array>
+</resources>
