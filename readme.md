@@ -6,7 +6,7 @@ This project consist in the apps (for Android and iOS) that are going to be used
 
 This project is related to RUAdmin (which is developed for the users/administrators from the RU of UFRJ).
 
-[RUAdmin](https://github.com/felipepodolan/RUAdmin)
+[RUAdmin](https://github.com/decania-ct/RUAdmin)
 
 ## Documentation
 
