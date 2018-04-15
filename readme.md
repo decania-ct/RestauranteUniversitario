@@ -10,5 +10,5 @@ This project is related to RUAdmin (which is developed for the users/administrat
 
 ## Documentation
 
-* [Android](https://mdjunior.github.io/ct-docs-tickets/restaurante-universitario/android/)
-* [iOS](https://mdjunior.github.io/ct-docs-tickets/restaurante-universitario/ios/)
+* [Android](https://decania-ct.github.io/ct-docs-tickets/restaurante-universitario/android/)
+* [iOS](https://decania-ct.github.io/ct-docs-tickets/restaurante-universitario/ios/)
