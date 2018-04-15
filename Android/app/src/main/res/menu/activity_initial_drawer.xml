@@ -19,9 +19,13 @@
             android:id="@+id/available_queues"
             android:icon="@drawable/icons8diningroom"
             android:title="@string/available_schedules" />
-        <item
+
+        <!-- Options will not be released in the first
+         version of the app                     -->
+
+        <!--item
             android:id="@+id/options"
             android:icon="@drawable/icons8settings"
-            android:title="@string/options" />
+            android:title="@string/options" /-->
     </group>
 </menu>

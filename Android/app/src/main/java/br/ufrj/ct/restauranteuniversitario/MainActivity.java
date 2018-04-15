@@ -131,11 +131,16 @@ public class MainActivity extends AppCompatActivity
             } else if (current instanceof TicketAllocatorFragment) {
                 navigationView.setCheckedItem(R.id.ticket_allocator);
                 itemId = R.id.ticket_allocator;
-            } else if (current instanceof  OptionsFragment || current instanceof HoursFragment
+            }
+            /**
+             * Never enter the options fragment since it's hiden from users in this first version of
+             * the released app.
+             **/
+            /*else if (current instanceof  OptionsFragment || current instanceof HoursFragment
                     || current instanceof RatingFragment || current instanceof NotificationsFragment) {
                 navigationView.setCheckedItem(R.id.options);
                 itemId = R.id.options;
-            }
+            }*/
         }
     }
 
@@ -169,10 +174,15 @@ public class MainActivity extends AppCompatActivity
         } else if (itemId == R.id.ticket_allocator && !(current instanceof TicketAllocatorFragment)) {
             fragment = new TicketAllocatorFragment();
             fragmentTag = FRAGMENT_TAG_GENERATOR;
-        } else if (itemId == R.id.options && !(current instanceof OptionsFragment)) {
+        }
+        /**
+         * Never enter the options fragment since it's hiden from users in this first version of
+         * the released app.
+        **/
+        /*else if (itemId == R.id.options && !(current instanceof OptionsFragment)) {
             fragment = new OptionsFragment();
             fragmentTag = FRAGMENT_TAG_OPTIONS;
-        }
+        }*/
 
         //transact to selected fragment
         if (fragment != null) {
